@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sky{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(92, 217, 255);
+    background-image: radial-gradient(circle at 46.5% 47%, white, white 3%, rgba(255, 0, 0, 0) 4%),
+                      radial-gradient(circle at 49% 45%, white, white 4%, rgba(255, 0, 0, 0) 5%),
+                      radial-gradient(circle at 51% 39%, white, white 3%, rgba(255, 0, 0, 0) 4%), 
+                      radial-gradient(circle at 53.2% 46%, white, white 3%, rgba(255, 0, 0, 0) 4%), 
+                      radial-gradient(circle at 51% 48%, white, white 3%, rgba(255, 0, 0, 0) 4%) , 
+                      radial-gradient(circle at 59% 51%, white, white 2%, rgba(255, 0, 0, 0)3%),
+                      radial-gradient(circle at 61% 50%, white, white 2%, rgba(255, 0, 0, 0) 3%), 
+                      radial-gradient(circle at 60.8% 53%, white, white 2%, rgba(255, 0, 0, 0) 3%), 
+                      radial-gradient(circle at 62.7% 47%, white, white 2%, rgba(255, 0, 0, 0) 3%),
+                      radial-gradient(circle at 62.7% 53%, white, white 2%, rgba(255, 0, 0, 0) 3%),
+                      radial-gradient(circle at 64.7% 51%, white, white 2%, rgba(255, 0, 0, 0) 3%),
+                      radial-gradient(circle at 57% 35%, yellow, rgba(92, 217, 255, 0) 13%);
+}
