@@ -18,5 +18,11 @@
                       radial-gradient(circle at 62.7% 47%, white, white 2%, rgba(255, 0, 0, 0) 3%),
                       radial-gradient(circle at 62.7% 53%, white, white 2%, rgba(255, 0, 0, 0) 3%),
                       radial-gradient(circle at 64.7% 51%, white, white 2%, rgba(255, 0, 0, 0) 3%),
-                      radial-gradient(circle at 57% 35%, yellow, rgba(92, 217, 255, 0) 13%);
+                      radial-gradient(circle at 57% 35%, rgb(255, 145, 0), rgba(92, 217, 255, 0) 2%),
+                      radial-gradient(circle at 57% 35%, rgb(255, 150, 0), rgba(92, 217, 255, 0) 4%),
+                      radial-gradient(circle at 57% 35%, rgb(255, 160, 0), rgba(92, 217, 255, 0) 6%),
+                      radial-gradient(circle at 57% 35%, rgb(255, 170, 0), rgba(92, 217, 255, 0) 8%),
+                      radial-gradient(circle at 57% 35%, rgb(255, 170, 0), rgba(92, 217, 255, 0) 10%),
+                      radial-gradient(circle at 57% 35%, rgb(255, 190, 0), rgba(92, 217, 255, 0) 12%),
+                      radial-gradient(circle at 57% 35%, rgb(255, 190, 0), rgba(92, 217, 255, 0) 13%);
 }
