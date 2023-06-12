@@ -1,28 +1,112 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.sky{
+
+.sky {
+    height: 100vh;
+    width: 100vw;
+}
+
+.day-sky {
     width: 100%;
-    aspect-ratio: 1100 / 400;
-    background-color: rgb(92, 217, 255);
-    background-image: radial-gradient(circle at 46.5% 47%, white, white 3%, rgba(255, 0, 0, 0) 4%),
-                      radial-gradient(circle at 49% 45%, white, white 4%, rgba(255, 0, 0, 0) 5%),
-                      radial-gradient(circle at 51% 39%, white, white 3%, rgba(255, 0, 0, 0) 4%), 
-                      radial-gradient(circle at 53.2% 46%, white, white 3%, rgba(255, 0, 0, 0) 4%), 
-                      radial-gradient(circle at 51% 48%, white, white 3%, rgba(255, 0, 0, 0) 4%) , 
-                      radial-gradient(circle at 59% 51%, white, white 2%, rgba(255, 0, 0, 0)3%),
-                      radial-gradient(circle at 61% 50%, white, white 2%, rgba(255, 0, 0, 0) 3%), 
-                      radial-gradient(circle at 60.8% 53%, white, white 2%, rgba(255, 0, 0, 0) 3%), 
-                      radial-gradient(circle at 62.7% 47%, white, white 2%, rgba(255, 0, 0, 0) 3%),
-                      radial-gradient(circle at 62.7% 53%, white, white 2%, rgba(255, 0, 0, 0) 3%),
-                      radial-gradient(circle at 64.7% 51%, white, white 2%, rgba(255, 0, 0, 0) 3%),
-                      radial-gradient(circle at 57% 35%, rgb(255, 145, 0), rgba(92, 217, 255, 0) 2%),
-                      radial-gradient(circle at 57% 35%, rgb(255, 150, 0), rgba(92, 217, 255, 0) 4%),
-                      radial-gradient(circle at 57% 35%, rgb(255, 160, 0), rgba(92, 217, 255, 0) 6%),
-                      radial-gradient(circle at 57% 35%, rgb(255, 170, 0), rgba(92, 217, 255, 0) 8%),
-                      radial-gradient(circle at 57% 35%, rgb(255, 170, 0), rgba(92, 217, 255, 0) 10%),
-                      radial-gradient(circle at 57% 35%, rgb(255, 190, 0), rgba(92, 217, 255, 0) 12%),
-                      radial-gradient(circle at 57% 35%, rgb(255, 190, 0), rgba(92, 217, 255, 0) 13%);
+    aspect-ratio: 1450 / 700;
+    background-image:   
+                        /*clouds*/
+                        radial-gradient(circle at 46.2% 46.4%, white, white 3%, rgba(255, 0, 0, 0) 4%),
+                        radial-gradient(circle at 48.8% 45.3%, white, white 4%, rgba(255, 0, 0, 0) 5%),
+                        radial-gradient(circle at 51% 41%, white, white 3%, rgba(255, 0, 0, 0) 4%),
+                        radial-gradient(circle at 53.2% 46%, white, white 3%, rgba(255, 0, 0, 0) 4%),
+                        radial-gradient(circle at 51% 47.3%, white, white 3%, rgba(255, 0, 0, 0) 4%) ,
+                        radial-gradient(circle at 59% 51.3%, white, white 2%, rgba(255, 0, 0, 0)3%),
+                        radial-gradient(circle at 61% 50%, white, white 2%, rgba(255, 0, 0, 0) 3%),
+                        radial-gradient(circle at 60.8% 52%, white, white 2%, rgba(255, 0, 0, 0) 3%),
+                        radial-gradient(circle at 62.7% 47%, white, white 2%, rgba(255, 0, 0, 0) 3%),
+                        radial-gradient(circle at 62.7% 52%, white, white 2%, rgba(255, 0, 0, 0) 3%),
+                        radial-gradient(circle at 64.7% 51%, white, white 2%, rgba(255, 0, 0, 0) 3%),
+                        /*Sun*/
+                        radial-gradient(circle at 57% 35%, rgb(255, 145, 0), rgba(92, 217, 255, 0) 2%),
+                        radial-gradient(circle at 57% 35%, rgb(255, 150, 0), rgba(92, 217, 255, 0) 4%),
+                        radial-gradient(circle at 57% 35%, rgb(255, 160, 0), rgba(92, 217, 255, 0) 6%),
+                        radial-gradient(circle at 57% 35%, rgb(255, 170, 0), rgba(92, 217, 255, 0) 8%),
+                        radial-gradient(circle at 57% 35%, rgb(255, 170, 0), rgba(92, 217, 255, 0) 10%),
+                        radial-gradient(circle at 57% 35%, rgb(255, 190, 0), rgba(92, 217, 255, 0) 12%),
+                        radial-gradient(circle at 57% 35%, rgb(255, 190, 0), rgba(92, 217, 255, 0) 13%),
+                        /*Day sky*/
+                        linear-gradient(rgb(92, 217, 255),rgb(92, 217, 255));
+}
+
+.night-sky {
+    aspect-ratio: 1450 / 700;
+    background-image:   
+                        /*First layer clouds*/
+                        radial-gradient(circle at -0.8% 83% ,#323871,#323871 5%,rgba(0, 0, 255, 0) 5.2%),
+                        radial-gradient(circle at -2.2% 78% ,#323871,#323871 3%,rgba(0, 0, 255, 0) 3.2%),
+                        radial-gradient(circle at 4% 90.5% ,#323871,#323871 2.9%,rgba(0, 0, 255, 0) 3.1%),
+                        radial-gradient(circle at 0% 97% ,#323871,#323871 4%,rgba(0, 0, 255, 0) 4%),
+                        radial-gradient(circle at 6% 98.2% ,#323871,#323871 2.5%,rgba(0, 0, 255, 0) 2.7%),
+                        radial-gradient(circle at 11.5% 100% ,#323871,#323871 3.8%,rgba(0, 0, 255, 0) 4%),
+                        radial-gradient(circle at 16% 103% ,#323871,#323871 2.5%,rgba(0, 0, 255, 0) 2.7%),
+                        radial-gradient(circle at 22.7% 111.5% ,#323871,#323871 8%,rgba(0, 0, 255, 0) 8.2%),
+                        radial-gradient(circle at 26.7% 97.5% ,#323871,#323871 3.6%,rgba(0, 0, 255, 0) 3.8%),
+                        radial-gradient(circle at 30% 97.5% ,#323871,#323871 4%,rgba(0, 0, 255, 0) 4.2%),
+                        radial-gradient(circle at 32.7% 90.5% ,#323871,#323871 4%,rgba(0, 0, 255, 0) 4.2%),
+                        radial-gradient(circle at 36.7% 88.5% ,#323871,#323871 4.2%,rgba(0, 0, 255, 0) 4.4%),
+                        radial-gradient(circle at 37% 100% ,#323871,#323871 5%,rgba(0, 0, 255, 0) 5%),
+                        radial-gradient(circle at 40% 95.5% ,#323871,#323871 3.8%,rgba(0, 0, 255, 0) 4%),
+                        radial-gradient(circle at 43% 96% ,#323871,#323871 3%,rgba(0, 0, 255, 0) 3.2%),
+                        radial-gradient(circle at 47% 97% ,#323871,#323871 4.8%,rgba(0, 0, 255, 0) 5%),
+                        radial-gradient(circle at 49.5% 92% ,#323871,#323871 3.8%,rgba(0, 0, 255, 0) 4%),
+                        radial-gradient(circle at 51.5% 87.5% ,#323871,#323871 4.2%,rgba(0, 0, 255, 0) 4.4%),
+                        radial-gradient(circle at 54% 100% ,#323871,#323871 6%,rgba(0, 0, 255, 0) 6%),
+                        radial-gradient(circle at 55% 94.6% ,#323871,#323871 5.2%,rgba(0, 0, 255, 0) 5.4%),
+                        radial-gradient(circle at 59% 97% ,#323871,#323871 2.8%,rgba(0, 0, 255, 0) 3%),
+                        radial-gradient(circle at 63% 100% ,#323871,#323871 4.8%,rgba(0, 0, 255, 0) 5%),
+                        radial-gradient(circle at 68.7% 106% ,#323871,#323871 4.8%,rgba(0, 0, 255, 0) 5%),
+                        radial-gradient(circle at 72% 105.8% ,#323871,#323871 3.6%,rgba(0, 0, 255, 0) 3.8%), 
+                        radial-gradient(circle at 77% 100% ,#323871,#323871 4.8%,rgba(0, 0, 255, 0) 5%),
+                        radial-gradient(circle at 82% 94% ,#323871,#323871 3.1%,rgba(0, 0, 255, 0) 3.3%),
+                        radial-gradient(circle at 96% 100% ,#323871,#323871 9%,rgba(0, 0, 255, 0) 9%),
+                        radial-gradient(circle at 87% 105% ,#323871,#323871 6%,rgba(0, 0, 255, 0) 6%),
+                        radial-gradient(circle at 85% 86% ,#323871,#323871 5.1%,rgba(0, 0, 255, 0) 5.3%),
+                        radial-gradient(circle at 89% 83% ,#323871,#323871 4%,rgba(0, 0, 255, 0) 4.2%),
+                        radial-gradient(circle at 93% 76% ,#323871,#323871 3%,rgba(0, 0, 255, 0) 3.2%),
+                        radial-gradient(circle at 97% 74% ,#323871,#323871 3%,rgba(0, 0, 255, 0) 3.2%),
+                        radial-gradient(circle at 99.3% 75.8% ,#323871,#323871 3.1%,rgba(0, 0, 255, 0) 3.3%),
+                        radial-gradient(circle at 101% 68% ,#323871,#323871 3%,rgba(0, 0, 255, 0) 3.2%),
+                        /*Second layer clouds*/
+                        radial-gradient(circle at 6.8% 91% ,#5146af,#5146af 4%,rgba(0, 0, 255, 0) 4.2%),
+                        radial-gradient(circle at 12% 93.5% ,#5146af,#5146af 5%,rgba(0, 0, 255, 0) 5.2%),
+                        radial-gradient(circle at 17.4% 95% ,#5146af,#5146af 3%,rgba(0, 0, 255, 0) 3.2%),
+                        radial-gradient(circle at 22% 93% ,#5146af,#5146af 4%,rgba(0, 0, 255, 0) 4.2%),
+                        radial-gradient(circle at 28% 93% ,#5146af,#5146af 5%,rgba(0, 0, 255, 0) 5.2%),
+                        radial-gradient(circle at 41% 95% ,#5146af,#5146af 5%,rgba(0, 0, 255, 0) 5.2%),
+                        radial-gradient(circle at 47% 92% ,#5146af,#5146af 5%,rgba(0, 0, 255, 0) 5.2%),
+                        radial-gradient(circle at 65% 99% ,#5146af,#5146af 5%,rgba(0, 0, 255, 0) 5.2%),
+                        radial-gradient(circle at 71% 97% ,#5146af,#5146af 5%,rgba(0, 0, 255, 0) 5.2%),
+                        radial-gradient(circle at 78.5% 91% ,#5146af,#5146af 5%,rgba(0, 0, 255, 0) 5.2%),
+                        radial-gradient(circle at 81% 82% ,#5146af,#5146af 4%,rgba(0, 0, 255, 0) 4.2%),
+                        /*Third layer clouds*/
+                        radial-gradient(circle at 4.5% 81% ,#675ad9,#675ad9 3%,rgba(0, 0, 255, 0) 3.2%),
+                        radial-gradient(circle at 9.7% 76% ,#675ad9,#675ad9 4%,rgba(0, 0, 255, 0) 4.2%),
+                        radial-gradient(circle at 13% 83% ,#675ad9,#675ad9 3%,rgba(0, 0, 255, 0) 3.2%),
+                        radial-gradient(circle at 18% 85% ,#675ad9,#675ad9 3%,rgba(0, 0, 255, 0) 3.2%),
+                        radial-gradient(circle at 22% 81.5% ,#675ad9,#675ad9 3.8%,rgba(0, 0, 255, 0) 4%),
+                        radial-gradient(circle at 26% 88% ,#675ad9,#675ad9 4%,rgba(0, 0, 255, 0) 4.2%),
+                        radial-gradient(circle at 30.5% 83.5% ,#675ad9,#675ad9 3%,rgba(0, 0, 255, 0) 3.2%),
+                        radial-gradient(circle at 34% 88% ,#675ad9,#675ad9 3.8%,rgba(0, 0, 255, 0) 4%),
+                        radial-gradient(circle at 56% 85.5% ,#675ad9,#675ad9 4.5%,rgba(0, 0, 255, 0) 4.7%),
+                        radial-gradient(circle at 60.5% 78% ,#675ad9,#675ad9 5%,rgba(0, 0, 255, 0) 5.2%),
+                        radial-gradient(circle at 62% 89% ,#675ad9,#675ad9 6%,rgba(0, 0, 255, 0) 6%),
+                        radial-gradient(circle at 65.5% 83% ,#675ad9,#675ad9 4.5%,rgba(0, 0, 255, 0) 4.7%),
+                        radial-gradient(ellipse at 68% 86% ,#675ad9,#675ad9 4.5%,rgba(0, 0, 255, 0) 4.7%),
+                        radial-gradient(circle at 72% 85% ,#675ad9,#675ad9 3.8%,rgba(0, 0, 255, 0) 4%),
+                        radial-gradient(circle at 91.5% 74% ,#675ad9,#675ad9 4.88%,rgba(0, 0, 255, 0) 5%),
+                        radial-gradient(circle at 88% 79% ,#675ad9,#675ad9 3%,rgba(0, 0, 255, 0) 3.2%),
+                        /*Moon*/
+                        radial-gradient(circle at 50% 50% ,#ffffff,#b4b4b4 14%,rgba(0, 0, 255, 0) 14.2%),
+                        radial-gradient(circle at 50% 50% ,#ffffff,rgba(0, 0, 255, 0) 20%),
+                        /*Night sky*/
+                        linear-gradient(rgb(14, 35, 65) , rgb(0 32 118), #5535bd , rgba(135, 66, 255, 0.77));
 }
