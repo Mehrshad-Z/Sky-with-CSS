@@ -33,6 +33,12 @@
                         radial-gradient(circle at 57% 35%, rgb(255, 170, 0), rgba(92, 217, 255, 0) 10%),
                         radial-gradient(circle at 57% 35%, rgb(255, 190, 0), rgba(92, 217, 255, 0) 12%),
                         radial-gradient(circle at 57% 35%, rgb(255, 190, 0), rgba(92, 217, 255, 0) 13%),
+                        /*Hills*/
+                        radial-gradient(circle at 30% 115%, rgb(49, 192, 44)30%, rgba(92, 217, 255, 0) 30.3%),
+                        radial-gradient(circle at 68% 123%, rgb(27, 167, 23)25%, rgba(92, 217, 255, 0) 25.3%),
+                        radial-gradient(circle at 95% 115%, rgb(49, 192, 44)20%, rgba(92, 217, 255, 0) 20.3%),
+                        radial-gradient(circle at -10% 110%, rgb(36, 169, 31)20%, rgba(92, 217, 255, 0) 20.3%),
+                        radial-gradient(circle at 52% 110%, rgb(80, 212, 75)20%, rgba(92, 217, 255, 0) 20.5%),
                         /*Day sky*/
                         linear-gradient(rgb(92, 217, 255),rgb(92, 217, 255));
 }
